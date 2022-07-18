@@ -1,0 +1,25 @@
+{
+    "name": "ridwan/belajar-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ridwan\\BelajarPhpComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ridwan Satria Wicaksana",
+            "email": "wicaksana.rs@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0",
+        "monolog/monolog":"2.2.0",
+        "programmerzamannow/belajar-php-composer-hello" : "2.0.0"
+    },
+    "scripts": {
+        "hello": "echo 'Hello World'"
+    }
+    
+}
